@@ -24,7 +24,6 @@ Heroku has cloud offerings with free developer-friendly tears for hobby projects
 ![image](https://user-images.githubusercontent.com/11357486/186637921-512b91c1-b168-4848-b5b3-8ca4ef0780d8.png)
 
 
-
 If we click on free Heroku database button we can create a new PostgreSQL Database in Heroku
 
 
@@ -38,10 +37,7 @@ When we open it and connect to it, you can create new tables and columns.
 ![image](https://user-images.githubusercontent.com/11357486/186638023-2ec6f071-549b-425d-b196-3ee3c6527826.png)
 <img width="1353" alt="image" src="https://user-images.githubusercontent.com/11357486/186638144-36babab9-218f-4af3-adcd-c8c769bacfeb.png">
 
-
-
 Hasura provides a very comfortable UI to Create Database columns that are very common in front-end development such as unique random ID of the row.
-
 
 It's a very simple interface to generate very common things like timestamp columns.
 
@@ -59,7 +55,6 @@ After successfully creating the table, we see modify section of this particular 
 App Development consists of accessing the data from the databases through query languages, one of them is SQL. Another is GraphQL which is the main selling point of Hasura as it connects with Postgres database to generate GraphQL schema and endpoint for such database.
 
 
-
 ![image](https://user-images.githubusercontent.com/11357486/186638512-132efa19-473a-4d4d-945f-9f271f029270.png)
 
 You can explore the generated GraphQL endpoint through the GraphicQL tool that lets you create GraphQL queries on the fly and see responses as JSON.
@@ -70,25 +65,16 @@ You can explore the generated GraphQL endpoint through the GraphicQL tool that l
 
 After this brief introduction to Hasura, I would like to move on to the second tool that we can use in our creation. Basically, I am running time for our application because we have a back-end and a database, but now we want to have a way to interact with that application. And with that database, and the back-end of it. Through some kind of front-end, whether it's a CLI application, a front-end in a browser application, a mobile application, or some other kind of front-layer for applications where JavaScript and our skills as front-end developers can be used and leveraged.
 
-
-
 ![image](https://user-images.githubusercontent.com/11357486/186638744-4d3b2db7-c56a-47d5-8878-fe3a6bc30eec.png)
 
 
 Lets focus on the deployed aspect of that runtime, which in official ways can be done through their cloud provider service called Deno deploy.
-
-
 
 Which provides instant deployments in 34 regions for a while with zero configuration zero maintenance on the development side and support for typescript web assembly modules and ECMAScript modules.
 
 We can just fine this for this project to see already existing projects to create new projects. That would be the next step for us to interact with the data.
 
 Whenever we are ready, we can create a new project.
-
-
-
-
-
 
 
 Hello world. This is just a server. What would we want? As well as an example of a playground with JSX.
@@ -98,13 +84,9 @@ Hello world. This is just a server. What would we want? As well as an example of
 So you can observe how to develop locally and deploy globally.
 
 
-
-
-
 In this case, that would be the "Hello World" and "Hello Team".
 
 ![image](https://user-images.githubusercontent.com/11357486/186638837-63063785-3a87-404e-8f04-e8019de8047c.png)
-
 
 
 When we open a new browser, we can see the "Hello World" immediately in the web browser.
